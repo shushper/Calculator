@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="ru.apress.calculator.MainActivity">
+
+
+    <TextView
+        android:paddingTop="28dp"
+        android:paddingBottom="28dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:id="@+id/textView"
+        android:gravity="right"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="1+2*5-5/22+(45+34)*-3"/>
+
+    <ru.apress.calculator.Keyboard
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ru.apress.calculator.Keyboard>
+</LinearLayout>
